@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-* main - Prints single digit numbers 
-*
-* Return: Always 0 (Success)
-*/
+ * main - Prints all single digit numbers
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	int num;
