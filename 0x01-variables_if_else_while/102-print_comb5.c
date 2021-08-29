@@ -1,45 +1,38 @@
 #include <stdio.h>
 /**
-* main - Prints possible combinations of two two-digit numbers
-*
-* Return: Always 0 (Success)
-*/
+ *main - prints all possible combinations of two two-digits numbers
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
-                int num;
-                int zero;
-		int num1;
-		int zero1;
+	int tens;
+	int ones;
+	int t;
+	int o;
 
-                for (num = 0; num <= 9; num++)
-                {
-                for (zero = num + 0; zero <= 9; zero++)
-                {
-
-		if (num1 < 9)
-		putchar(' ');
-
-                putchar(num + '0');
-                putchar(zero + '0');
-
-		for (num1 = 0; num1 <= 9; num1++)
-		{
-		for (zero1 = num1 + 1; zero1 <= 9; zero1++)
-		{
-		putchar(num1 + '0');
-		putchar(zero1 + '0');
-
-                if (num < 9)
-                {
-                putchar(',');
-                putchar(' ');
-                }
-		}
-		}
-        }
+	for (tens = '0'; tens <= '9'; tens++) /*print first two digit combo*/
+	{
+	for (ones = '0'; ones <= '9'; ones++)
+	{
+	for (t = tens; t <= '9'; t++) /*print second of pair*/
+	{
+	for (o = ones + 1; o <= '9'; o++)
+	{
+	putchar(tens);		
+	putchar(ones);
+	putchar(' ');
+	putchar(t);
+	putchar(o);
+	if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	}
+	o = '0';
+	}
+	}
+	}
+	putchar('\n');
+	return (0);
 }
-                putchar('\n');
-
-        return (0);
-}
-
