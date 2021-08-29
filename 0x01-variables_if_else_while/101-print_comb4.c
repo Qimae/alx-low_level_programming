@@ -19,7 +19,6 @@ int main(void)
 		putchar(num + '0');
 		putchar(zero + '0');
 		putchar(thirds + '0');
-	
 		if (num < 7)
 	{
 		putchar(',');
@@ -30,5 +29,5 @@ int main(void)
 }
 		putchar('\n');
 		
-		return (0);
+return (0);
 }
