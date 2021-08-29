@@ -15,12 +15,12 @@ int main(void)
 		for (zero = num + 1; zero <= 9; zero++)
 	{
 		for (thirds = zero + 1; thirds <= 9; thirds++)
-		{
+	{
 		putchar(num + '0');
 		putchar(zero + '0');
 		putchar(thirds + '0');
 	
-		if (num < 8)
+		if (num < 7)
 	{
 		putchar(',');
 		putchar(' ');
