@@ -4,7 +4,7 @@
  *
  * @n: int value
  *
- * Return
+ * Return: the result a
  */
 int print_last_digit(int n)
 {
