@@ -6,7 +6,6 @@
 /**
 * positive_or_negative - print positive, negative and zero
 * @i: Integer to be checked
-* Return: 0 on (success)
 */
 void positive_or_negative(int i)
 {
@@ -15,14 +14,14 @@ i = rand() - RAND_MAX / 2;
 
 if (i > 0)
 {
-printf("%i is positive\n", i);
+printf("%d is positive\n", i);
 }
 else if (i == 0)
 {
-printf("%i is zero\n", i);
+printf("%d is zero\n", i);
 }
 else if (i < 0)
 {
-printf("%i is negative\n", i);
+printf("%d is negative\n", i);
 }
 }
