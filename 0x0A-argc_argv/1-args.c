@@ -5,10 +5,10 @@
  * @argc: argc value count
  * @argv: array of pointer to argument strings
  * return: always 0
- */
+ **/
 int main (int argc, char *argv[])
-{	
-	argv = argv;
-	printf("%d\n", argc - 1);
-	return (0);
+{
+argv = argv;
+printf("%d\n", argc - 1);
+return (0);
 }

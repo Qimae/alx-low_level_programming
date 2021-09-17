@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/**main - prints program name followed by new line.
+/**main - prints all arguments it recieves
  *
  * @i: argc value
  * @argv: array of pointer to argument strings.
@@ -9,11 +9,10 @@
  **/
 int main (int argc, char *argv[])
 {
-        int i;
-        
-        for(i = 0; i < argc; i++)
-        {
-                printf("%s\n", argv[i]);
-        }
-        return (0);
+int i;
+for(i = 0; i < argc; i++)
+{
+printf("%s\n", argv[i]);
+}
+return (0);
 }
