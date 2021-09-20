@@ -1,18 +1,7 @@
 #include "main.h"
-#include <stdio.h>
-/**
-* _isupper - checks for uppercase character
-* @c: Variable text
-* Return: Always 0.
-*/
-int _isupper(int c)
+
+int main(void)
 {
-if (c >= 'A' && c <= 'Z')
-{
-return (1);
-}
-else
-{
-return (0);
-}
+    _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+    return (0);
 }
