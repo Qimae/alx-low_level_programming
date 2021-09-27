@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints the name it was compiled from.
- *
- * return: 0 (Success)
+ * return: always 0 (Success)
  */
 
 int main(void)
