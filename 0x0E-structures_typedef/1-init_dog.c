@@ -6,7 +6,7 @@
  * @name: first member
  * @age: second member
  * @owner: third member
- *
+ * @d: pointer to the structure
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
