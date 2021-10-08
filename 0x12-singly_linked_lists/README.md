@@ -1,8 +1,8 @@
-.0x12-singly_linked_lists
+**0x12-singly_linked_lists**
 
 The use of Linked Lists instead of arrays.
 
-.Description
+**Description**
 
 Write a function that prints all the elements of a list_t list.
 
@@ -15,10 +15,10 @@ Write a function that adds a new node at the end of a list_t list.
 Write a function that frees a list_t list.
 
 
-.Author
+**Author**
 
 Kimae Ngowa
 
-.License
+**License**
 
 Holberton School 
