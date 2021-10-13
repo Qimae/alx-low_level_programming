@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * insert_nodedint_at_index - inserts a new node at a given position
+ * insert_nodeint_at_index - inserts a new node at a given position
  * @head: pointer to node
  * @idx: index to insert the node
  * @n: newNode data
